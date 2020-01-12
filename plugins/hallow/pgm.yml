@@ -1,0 +1,6 @@
+parent: base
+cycle:
+  countdown: 5m
+  match-end:
+    enabled: true
+    countdown: 5m

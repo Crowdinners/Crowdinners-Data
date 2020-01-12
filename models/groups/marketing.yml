@@ -1,0 +1,80 @@
+name: Marketing
+priority: 500
+html_color: "#1b5e20"
+badge_color: "#1b5e20"
+premium: true
+staff: true
+minecraft_permissions:
+  global:
+  - lobby.disabled-permissions-exempt
+  - lobby.fly
+  - overcast.premium
+  - pgm.fullserver
+  - pgm.join.choose
+  - pgm.join.full
+  - raindrops.multiplier.250
+  normal:
+  - chat.admin
+  - pgm.chat.all.receive
+  - pgm.fullserver
+  - pgm.team.force
+  - setting.adminchat
+  - setting.nick
+  - setting.nick.any
+  - setting.nick.any.get
+  - setting.nick.get
+  - setting.nick.immediate
+  - setting.nick.set
+  - setting.nick.unlimited
+  staging:
+  - whitelist.bypass
+  anax:
+  - network.stratus.login
+web_permissions:
+  forum:
+    parent:
+      bypass_cooldown: true
+    59ac4344a2e3a90001000045: #Staff/Discussion
+      topic:
+        create: true
+        index_parent: all
+        reply: all
+        hide: own
+        modify_archived: all
+        view_parent: all
+        view:
+          status:
+            locked: all
+            hidden: own
+        index:
+          status:
+            locked: all
+            hidden: own
+      post:
+        view_parent: all
+        edit_parent: own
+        hide: own
+  group:
+    parent:
+      admin: true
+    internet_famous:
+      admin: true
+      manage: true
+      edit:
+        members: true
+    content_creators:
+      admin: true
+      manage: true
+      edit:
+        members: true
+    nimbus:
+      admin: true
+      manage: true
+      edit:
+        members: true
+  misc:
+    player:
+      view_display_server: true
+      view_new_players: true
+  trophy:
+    admin: true

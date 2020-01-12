@@ -1,0 +1,79 @@
+name: Developers
+priority: 100
+html_color: "#6a1b9a"
+badge_color: "#6a1b9a"
+badge_link: "/staff"
+premium: true
+minecraft_permissions:
+  pre:
+  - pgm.dev
+  - minecraft.command.kick
+  - minecraft.command.ban
+  global:
+  - chat.admin
+  - commandbook.*
+  - ocn.broadcast.global
+  - ocn.developer
+  - ocn.trophies.list
+  - ocn.trophies.modify
+  - op
+  - protocolsupport.admin
+  - raindrops.multiplier.250
+  - setting.nick
+  - setting.nick.any
+  - setting.nick.any.get
+  - setting.nick.any.set
+  - setting.nick.get
+  - setting.nick.immediate
+  - setting.nick.set
+  - setting.nick.unlimited
+  - skin.change
+  - sudo
+  - sudo.others
+  - tokens.give
+  - viaversion.admin
+  - whitelist.bypass
+staff: true
+minecraft_flair:
+  global:
+    symbol: "[Dev] "
+    color: dark_purple
+    priority: 220
+web_permissions:
+  forum:
+    parent:
+      bypass_cooldown: true
+    59ac4344a2e3a90001000045: #Staff/Discussion
+      topic:
+        create: true
+        index_parent: all
+        reply: all
+        hide: own
+        modify_archived: all
+        view_parent: all
+        view:
+          status:
+            locked: all
+            hidden: own
+        index:
+          status:
+            locked: all
+            hidden: own
+      post:
+        view_parent: all
+        edit_parent: own
+        hide: own
+    59b41b2b66bbaa0001000005: #Community/Development
+      manage: true
+  misc:
+    peek:
+      view: true
+  map:
+    rating:
+      view:
+        public: all
+        private: all
+  user:
+    profile:
+      verified:
+        edit: own
