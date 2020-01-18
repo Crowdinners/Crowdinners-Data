@@ -25,9 +25,28 @@ web_permissions:
         view_parent: all
         hide: own
         edit_parent: own
-    5e2226dbe8955709cc000012: # Crowdinners/Announcements
+    5e225beae895575609000004: # Crowdinners/Information
       topic:
         create: false
+    5e225a60e895575609000002: # Crowdinners/Staff
+      topic:
+        index_parent: none
+        view_parent: none
+        index:
+          status:
+            locked: none
+            hidden: none
+        view:
+          status:
+            locked: none
+            hidden: none
+        reply: none
+        hide: none
+        create: false
+      post:
+        view_parent: none
+        edit_parent: none
+        hide: none
   punishment:
     view:
       type:
