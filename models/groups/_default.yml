@@ -28,7 +28,7 @@ web_permissions:
     5e2226dbe8955709cc000012: # Information/Announcements
       topic:
         create: false
-    5e226016e89557638e000001: # Staff/Administrators
+    5e225aa1e895575609000003: # Staff/Administrators
       topic:
         index_parent: none
         view_parent: none
