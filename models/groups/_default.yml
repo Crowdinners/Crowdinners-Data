@@ -25,10 +25,10 @@ web_permissions:
         view_parent: all
         hide: own
         edit_parent: own
-    5e225beae895575609000004: # Crowdinners/Information
+    5e2226dbe8955709cc000012: # Information/Announcements
       topic:
         create: false
-    5e225a60e895575609000002: # Crowdinners/Staff
+    5e226016e89557638e000001: # Staff/Administrators
       topic:
         index_parent: none
         view_parent: none
