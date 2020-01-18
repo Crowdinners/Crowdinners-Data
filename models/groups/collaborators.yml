@@ -1,0 +1,7 @@
+name: Collaborators
+priority: 850
+html_color: "#81488b"
+badge_color: "#81488b"
+badge_link: "/staff"
+premium: true
+staff: true
